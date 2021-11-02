@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<html>
+<head></head>
+<body>
+    <table border="3">
+    <form method="POST" action="http://formadorestic.com/alumnosasir2/procesaformulario_usuario.php">        
+        <tr>
+            <th colspan="2">Formulario</th>
+        </tr>
+        <tr>
+            <th><label for="nombre">Nombre</label></th>
+            <td><input type="text" name="nombre" id="nombre" placeholder="Escribe el nombre"/></td>
+        </tr>
+        <tr>
+            <th><label for="pass">Password</label></th>
+            <td><input type="password" name="password" id="pass" placeholder="Escribe la password"/></td>    
+        </tr>
+        <tr>
+            <th><label for="direccion">Direccion</label></th>
+            <td><textarea name="direccion" id="direccion" placeholder="Escribe la direccion"/></textarea></td>
+        </tr>
+        <tr>
+            <th>Deporte</th>
+            <td><input type="checkbox" name="deportes[]" id="deporte" value="Hockey"></input>
+                <label for="deporte">Hockey</label><br>
+                <input type="checkbox" name="deportes[]" id="deporte1" value="Badminton"></input>
+                <label for="deporte1">Badminton</label><br>
+                <input type="checkbox" name="deportes[]" id="deporte2" value="Futbol"></input>
+                <label for="deporte2">Futbol</label><br>
+                <input type="checkbox" name="deportes[]" id="deporte3" value="Volleyball"></input>
+                <label for="deporte3">Volleyball</label><br>
+                <input type="checkbox" name="deportes[]" id="deporte4" value="Cricket"></input>
+                <label for="deporte4">Cricket</label>
+            </td>
+        </tr>
+        <tr>
+            <th>Sexo</th>
+            <td><input type="radio" id="sexo1" name="sexo" value="Hombre"></input>
+                <label for="sexo1">Hombre</label>
+                <input type="radio" id="sexo2" name="sexo" value="Mujer"></input>
+                <label for="sexo2">Mujer</label>
+            </td>
+        </tr>
+        <tr>
+            <th><label for="age">Edad</label></th>
+            <td><select id="age" name="edad">
+                    <option value="Mayor de edad">+18</option>
+                    <option value="Menor de edad">-18</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <th colspan="2"><label for="file"></label>      
+            <input type="file" id="file"></input></th>
+        </tr>        
+
+        <tr>
+            <th colspan="2"><button type="button">Click me!</button>
+            <input type="reset"></input>           
+            <input type="submit" value="Enviar"/>
+            </th>
+        </tr>
+    </form>
+    </table>
+</body>
+</html>
