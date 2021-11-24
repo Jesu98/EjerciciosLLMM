@@ -1,0 +1,38 @@
+.d1{ position: relative;
+	border: 2px solid indigo;
+	background-color: cyan;
+	width: 100px;
+
+}
+#d1{
+	position: relative;
+	border: 2px solid indigo;
+	background-color: cyan;
+	width: 100px;
+	left: 120px;
+	bottom: 92px;
+}
+.d2{
+	position: relative;
+	border: 2px solid indigo;
+	background-color: cyan;
+	width: 100px;
+	left: 240px;
+	bottom: 184px;
+}
+#d2{
+	position: relative;
+	border: 2px solid indigo;
+	background-color: cyan;
+	width: 100px;
+	left: 360px;
+	bottom: 276px;
+}
+.d3{
+	position: relative;
+	border: 2px solid indigo;
+	background-color: cyan;
+	width: 100px;
+	left: 480px;
+	bottom: 368px;
+}
