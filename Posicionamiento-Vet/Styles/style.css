@@ -1,0 +1,30 @@
+#relativo{
+			position: relative;
+			border: solid green 3px;
+			width: 150px;
+			height: 150px;
+}
+#absoluto{
+			position: absolute;
+			border: solid blue 3px;
+			width: 100px;
+			height: 100px;
+			top: 45px;
+			left: 40px;
+}
+#fixed{
+			position: fixed;
+			border: solid 3px;
+			background-color: pink;
+			width: 100px;
+			right: 0px;
+			top: 200px;
+}
+img{position: relative;
+	bottom: 2000px;
+	left: 100px;
+	width: 15%;
+}
+.largo{
+	width: 1px;
+}
