@@ -1,0 +1,331 @@
+		body{
+			background-color: green;
+		}
+		.carta{
+			height: 300px;
+			width: 200px;
+			background: white;
+			border-radius: 5px;
+			border: black solid 2px;
+		}
+		#numeracion5corazones>.numero{
+			font-size: 20px;
+			color: red;
+				}
+		#numeracion5corazones>.simbolo{
+			font-size: 20px;
+			color: red;
+		}
+		#cinco_corazones{
+			position: absolute;
+			left: 60px;
+			top: 40px;
+			transform: rotate(-25deg);
+			z-index: 4;
+			animation-name: cincocorazon;
+			animation-duration: 4s;
+			animation-fill-mode: forwards;
+		}
+		#numeracion5corazones_invertido{
+			transform: rotate(180deg);
+			position: absolute;
+			bottom: 0px;
+			right: 0px;
+			font-size: 20px;
+			color: red;
+		}
+		.palo{
+			font-size: 35px;
+		}
+		#cinco_corazones>#palo1{
+			color: red;
+			position: absolute;
+			top: 80px;
+			left: 50px;
+		}
+		#cinco_corazones>#palo2{
+			color: red;
+			position: absolute;
+			top: 80px;
+			left: 120px;
+		}
+		#cinco_corazones>#palo3{
+			color: red;
+			position: absolute;
+			top: 120px;
+			left: 85px;
+		}
+		#cinco_corazones>#palo4{
+			color: red;
+			position: absolute;
+			top: 160px;
+			left: 50px;
+			transform: rotate(180deg);
+		}#cinco_corazones>#palo5{
+			color: red;
+			position: absolute;
+			top: 160px;
+			left: 120px;
+			transform: rotate(180deg);
+		}
+		#dos_trebol>#palo1{
+			color: black;
+			position: absolute;
+			top: 20px;
+			left: 85px;
+		}
+		#dos_trebol>#palo2{
+			color: black;
+			position: absolute;
+			bottom: 20px;
+			left: 85px;
+			transform: rotate(180deg);
+		}
+		#dos_trebol{
+			position: absolute;
+			top: 40px;
+			left: 60px;
+			transform: rotate(-25deg);
+			animation-name: dostrebol;
+			animation-duration: 4s;
+			animation-fill-mode: forwards;
+		}
+		#numeracion2trebol>.numero{
+			font-size: 20px;
+		}
+		#numeracion2trebol>.simbolo{
+			font-size: 20px;
+		}
+		#numeracion2trebol_invertido{
+			transform: rotate(180deg);
+			position: absolute;
+			bottom: 0px;
+			right: 0px;
+			font-size: 20px;
+		}
+		#cuatro_trebol{
+			position: absolute;
+			top: 40px;
+			left: 60px;
+			z-index: 2;
+			transform: rotate(-25deg);
+			animation-name: cuatrotrebol;
+			animation-duration: 4s;
+			animation-fill-mode: forwards;
+		}
+		#numeracion4trebol>.numero{
+			font-size: 20px;
+		}
+		#numeracion4trebol>.simbolo{
+			font-size: 20px;
+		}
+		#numeracion4trebol_invertido{
+			transform: rotate(180deg);
+			position: absolute;
+			bottom: 0px;
+			right: 0px;
+			font-size: 20px;
+		}
+		#cuatro_trebol>#palo1{
+			color: black;
+			position: absolute;
+			top: 30px;
+			left: 45px;
+		}
+		#cuatro_trebol>#palo2{
+			color: black;
+			position: absolute;
+			top: 30px;
+			left: 110px;
+		}
+		#cuatro_trebol>#palo3{
+			color: black;
+			position: absolute;
+			bottom: 30px;
+			left: 45px;
+			transform: rotate(180deg);
+		}
+		#cuatro_trebol>#palo4{
+			color: black;
+			position: absolute;
+			bottom: 30px;
+			left: 110px;
+			transform: rotate(180deg);
+		}
+		#tres_pica>#palo1{
+			color: black;
+			position: absolute;
+			top: 20px;
+			left: 85px;
+		}
+		#tres_pica>#palo2{
+			color: black;
+			position: absolute;
+			bottom: 150px;
+			left: 85px;
+		}
+		#tres_pica>#palo3{
+			color: black;
+			position: absolute;
+			bottom: 30px;
+			left: 85px;
+			transform: rotate(180deg);
+		}
+		#tres_pica{
+			position: absolute;
+			top: 40px;
+			left: 60px;
+			transform: rotate(-25deg);
+			animation-name: trespica;
+			animation-duration: 4s;
+			animation-fill-mode: forwards;
+		}
+		#numeracion3pica>.numero{
+			font-size: 20px;
+		}
+		#numeracion3pica>.simbolo{
+			font-size: 20px;
+		}
+		#numeracion3pica_invertido{
+			transform: rotate(180deg);
+			position: absolute;
+			bottom: 0px;
+			right: 0px;
+			font-size: 20px;
+		}
+		#siete_trebol{
+			position: absolute;
+			left: 60px;
+			top: 40px;
+			transform: rotate(-25deg);
+			z-index: 3;
+			animation-name: sietetrebol;
+			animation-duration: 4s;
+			animation-fill-mode: forwards;
+		}
+		#numeracion7trebol>.numero{
+			font-size: 20px;
+		}
+		#numeracion7trebol>.simbolo{
+			font-size: 20px;
+		}
+		#numeracion7trebol_invertido{
+			transform: rotate(180deg);
+			position: absolute;
+			bottom: 0px;
+			right: 0px;
+			font-size: 20px;
+		}
+		#siete_trebol>#palo1{
+			color: black;
+			position: absolute;
+			top: 30px;
+			left: 45px;
+		}
+		#siete_trebol>#palo2{
+			color: black;
+			position: absolute;
+			top: 30px;
+			left: 110px;
+		}
+		#siete_trebol>#palo3{
+			color: black;
+			position: absolute;
+			bottom: 180px;
+			left: 80px;
+		}
+		#siete_trebol>#palo4{
+			color: black;
+			position: absolute;
+			bottom: 140px;
+			left: 45px;
+		}
+		#siete_trebol>#palo5{
+			color: black;
+			position: absolute;
+			bottom: 140px;
+			left: 110px;
+		}
+		#siete_trebol>#palo6{
+			color: black;
+			position: absolute;
+			bottom: 50px;
+			left: 45px;
+			transform: rotate(180deg);
+		}
+		#siete_trebol>#palo7{
+			color: black;
+			position: absolute;
+			bottom: 50px;
+			left: 110px;
+			transform: rotate(180deg);
+		}
+		/*Animaciones 7-trebol*/
+		@keyframes sietetrebol {
+			0%{
+				transform: rotate(-25deg);
+				left: 60px;
+				top: 40px;
+			}
+			
+			100%{
+				transform: rotate(25deg);
+				left: 600px;
+				top: 55px;
+			}
+		}
+		/*Animaciones 5-corazon*/
+		@keyframes cincocorazon {
+			0%{
+				transform: rotate(-25deg);
+				left: 60px;
+				top: 40px;
+			}
+			
+			100%{
+				transform: rotate(35deg);
+				left: 650px;
+				top: 80px;
+			}
+		}
+		/*Animaciones 2-trebol*/
+		@keyframes dostrebol {
+			0%{
+				transform: rotate(-25deg);
+				left: 60px;
+				top: 40px;
+			}
+			
+			100%{
+				transform: rotate(-30deg);
+				left: 300px;
+				top: 80px;
+			}
+		}
+		/*Animaciones 4-trebol*/
+		@keyframes cuatrotrebol {
+			0%{
+				transform: rotate(-25deg);
+				left: 60px;
+				top: 40px;
+			}
+			
+			100%{
+				left: 500px;
+				top: 50px;
+				transform: rotate(0deg);
+			}
+		}
+		@keyframes trespica {
+			0%{
+				transform: rotate(-25deg);
+				left: 60px;
+				top: 40px;
+			}
+			
+			100%{
+				transform: rotate(-20deg);
+				left: 400px;
+				top: 55px;
+			}
+		}
