@@ -1,0 +1,33 @@
+body{
+	background-color: lightgreen;
+}
+
+li{
+		display: inline;
+		padding: 20px;
+	}
+a:hover{
+	    color: white;
+}	
+a{
+	text-decoration: none;
+
+}
+li>a{
+	background-color: lightblue;
+}
+@media only screen and (max-width: 1024px) {
+ li.R {
+ 	display: none;
+ }
+}
+ @media only screen and (max-width: 768px) {
+ li.L {
+ 	display: none;
+ }
+}
+ @media only screen and (max-width: 480px) {
+ li.B {
+ 	display: none;
+ }
+}
